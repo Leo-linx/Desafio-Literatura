@@ -18,20 +18,16 @@ Servicios/ ---------->  Logica de negocio   consumo de API, validaciones, filtro
 Desafío Literalura -->  Documentación del Proyecto
 Repositorio/ -------->  Interfaces JpaRepo
 
+Java  SE 17 Lenguaje de programación   
+Spring Boot 3.3.0 Framework para desarrollo de aplicaciones web
+Maven  Gestor de dependencias     
+PostgreSQL  Base de datos relacional       
+IntelliJ IDEA  Entorno de desarrollo (IDE)   
+Jackson Core  Librería para serialización JSON 
+Jackson Dataformat Soporte para diferentes formatos de JSON
+Spring Data JPA Persistencia de datos con JPA 
+PostgreSQL Driver  Conector JDBC para PostgreSQL    
 ## 🧪 Tecnologías utilizadas
-
-| Herramienta         | Versión         | Descripción                                   |
-|---------------------|-----------------|-----------------------------------------------|
-| Java                | SE 17           | Lenguaje de programación                      |
-| Spring Boot         | 3.3.0           | Framework para desarrollo de aplicaciones web |
-| Maven               | -               | Gestor de dependencias                        |
-| PostgreSQL          | -               | Base de datos relacional                      |
-| IntelliJ IDEA       | -               | Entorno de desarrollo (IDE)                   |
-| Jackson Core        | -               | Librería para serialización JSON              |
-| Jackson Dataformat  | -               | Soporte para diferentes formatos de JSON      |
-| Spring Data JPA     | -               | Persistencia de datos con JPA                 |
-| PostgreSQL Driver   | -               | Conector JDBC para PostgreSQL                 |
------------------------------------------------------------------------------------------
 
 Base de Datos
 Se utiliza PostgreSQL para almacenar los datos persistentes. Las entidades estan mapeadas con JPA y se
