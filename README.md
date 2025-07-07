@@ -1,5 +1,4 @@
 # Desafio-Literatura
-
 Este es un proyecto desarrollado en Java con Spring Boot que permite consultar y almacenar informacion
 literaria a partir de la API de Gutendex. Cuenta con un menu interactivo para realizar diferentes operaciones sobre libros y autores, guardando los datos en una base de datos PostgreSQL
 
@@ -12,16 +11,12 @@ Funcionalidades del menu
 0 - Salir del programa
 
 Estructura del Proyecto
-
-com.aluracursos.desafio_literalura
-
 Application.java ---->  Punto de entrada de la aplicacion
 Principal.java ------>  Clase con menu interactivo
 Modelos/ ------------>  Entidades: Autores, Libros
 Servicios/ ---------->  Logica de negocio   consumo de API, validaciones, filtros
 Desafío Literalura -->  Documentación del Proyecto
 Repositorio/ -------->  Interfaces JpaRepo
-
 
 ## 🧪 Tecnologías utilizadas
 
@@ -41,7 +36,6 @@ Repositorio/ -------->  Interfaces JpaRepo
 Base de Datos
 Se utiliza PostgreSQL para almacenar los datos persistentes. Las entidades estan mapeadas con JPA y se
 relacionan mediante anotaciones como @OneToMany y @ManyToOne.
-
 
 Como ejecutar el proyecto
 1. Clona este repositorio.
