@@ -45,4 +45,4 @@ Como ejecutar el proyecto
  spring.datasource.username=tu_usuario
  spring.datasource.password=tu_contrasena
  spring.jpa.hibernate.ddl-auto=update
-4. Abre el proyecto en Int
+4. Abre el proyecto en Intellij-idea
